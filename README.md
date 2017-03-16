@@ -5,7 +5,7 @@ An aptitude test designed for a competence evaluation before further lessons
 
 ### In order to get this working on your pc you should do the following
 
-1. Clone this repository to your own
+1. Fork this repository to your own account
 
 2. Make sure you have Netbeans installed (or feel comfortable opening this code in your own favorite IDE/Awesome textEditor
 
