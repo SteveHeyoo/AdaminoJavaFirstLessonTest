@@ -14,7 +14,7 @@ public class Test {
     public Test() {
     }
 
-    //Create a constructor which can take all non-constant fields as arguments
+    //Create a constructor which can studentFirstName as argument and sets the value of isLearning to false and currentSemester to 1
     //Create a method to print studentName to the console
     //Create a method to print studentName if the value isLearning is true
     /*Create a method that takes an int "semester" as argument
