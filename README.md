@@ -12,5 +12,6 @@ An aptitude test designed for a competence evaluation before further lessons
 
 3. In the class called "FirstLesson" there are assignments to solve.
   Solve each of these tasks to the best of your ability and publish them on your own github account.
+YOU MUST NOT ALTER ANY CODE PREVIOUSLY WRITTEN IN THE TEST!!!
 
 4. Send me the link privately for your repo when you're done
