@@ -17,8 +17,8 @@ public class ArchitectureMain {
          * 3. The animals should implement the interface called IAnimalActions
          *
          * 4. Create a mock AnimalDAO which returns a collection of Cats and
-         * Dogs
-         * to the model when it is created!
+         * Dogs to the model when it is created!
+         * (Think well about the calls through the architecture)
          */
 
         //Instatiate a new AnimalModel here
