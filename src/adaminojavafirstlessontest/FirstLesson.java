@@ -36,7 +36,7 @@ public class FirstLesson {
         arrayListOfSemesters.add(5);
     }
 
-    //Create a constructor which can studentFirstName as argument and sets the value of isLearning to false and currentSemester to 1
+    //Create a constructor which can take studentFirstName as argument and sets the value of isLearning to false and currentSemester to 1
     public FirstLesson(String studentName) {
         this.studentName = studentName;
         isLearning = false;
@@ -51,39 +51,37 @@ public class FirstLesson {
     //Create a method to print studentName if the value isLearning is true, call it printLearningStudent
     public void printLearningStudent() {
         if (isLearning) {
-            System.out.println(studentName);
+            printStudentName();
         }
     }
 
-    /*Create a method that takes an int "semester" as argument
-    and returns studentName in case the int equals 2 and returns an empty value in case semester is 1, 3, 4, 5 or default
-    Call it returnOnSecondSemester
+    /*
+     * Create a method that takes an int "semester" as argument
+     * and returns studentName in case the int equals 2 and returns an empty
+     * value in case semester is 1, 3, 4, 5 or default
+     * Call it returnOnSecondSemester
      */
     public String returnOnSecondSemester(int semester) {
         String emptyString = "";
         switch (semester) {
-            case 1:
-                return emptyString;
             case 2:
                 return studentName;
-            case 3:
-                return emptyString;
-            case 4:
-                return emptyString;
-            case 5:
-                return emptyString;
             default:
                 return emptyString;
         }
     }
 
-    /*Create an int Array field which contains numbers from 1 to 5,
-call it arrayOfSemesters
-remember to create a getter for it afterwards!
+    /*
+     * Create an int Array field which contains numbers from 1 to 5,
+     * call it arrayOfSemesters
+     * remember to create a getter for it afterwards!
      */
- /*Create an Integer ArrayList field that also contains the numbers from 1 to 5,
-call it arrayListOfSemesters
-remember to create a getter for it afterwards*/
+ /*
+     * Create an Integer ArrayList field that also contains the numbers from 1
+     * to 5,
+     * call it arrayListOfSemesters
+     * remember to create a getter for it afterwards
+     */
     //Create a method to set the value isLearning to a new value
     public void setIsLearning(boolean isLearning) {
         this.isLearning = isLearning;
