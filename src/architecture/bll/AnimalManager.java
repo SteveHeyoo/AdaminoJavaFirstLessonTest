@@ -3,23 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package architecture.gui.model;
+package architecture.bll;
 
 import architecture.be.AAnimal;
-import architecture.bll.AnimalManager;
+import architecture.dal.AnimalDAO;
 import java.util.List;
 
-public class AnimalModel {
+public class AnimalManager {
 
-    private final AnimalManager animalManager;
+    private final AnimalDAO animalDAO;
 
-    public AnimalModel() {
-
-        animalManager = new AnimalManager();
+    public AnimalManager() {
+        animalDAO = new AnimalDAO();
     }
 
     public List<AAnimal> getAnimals() {
-        return animalManager.getAnimals();
+        return animalDAO.getAnimals();
     }
 
 }
