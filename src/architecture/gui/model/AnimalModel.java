@@ -7,19 +7,24 @@ package architecture.gui.model;
 
 import architecture.be.AAnimal;
 import architecture.bll.AnimalManager;
+import java.util.ArrayList;
 import java.util.List;
 
 public class AnimalModel {
 
     private final AnimalManager animalManager;
 
+    private final List<AAnimal> animals;
+
     public AnimalModel() {
 
         animalManager = new AnimalManager();
+
+        animals = new ArrayList<>(animalManager.getAnimals());
     }
 
     public List<AAnimal> getAnimals() {
-        return animalManager.getAnimals();
+        return animals;
     }
 
 }
